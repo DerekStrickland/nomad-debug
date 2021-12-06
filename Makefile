@@ -6,4 +6,4 @@ dev:
 .PHONY: docker
 docker:
 	@echo "==> Building	nomad-debug docker image..."
-	@docker build --tag nomad-debug .
+	@docker build --tag hashideke/nomad-debug:v0.0.1 .
